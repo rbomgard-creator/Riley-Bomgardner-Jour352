@@ -16,6 +16,12 @@ Maroon - #540B0E
     #navigation {
         background-color: #540b0e;
         padding: 5px;
+        font-family: "Fauna One", serif;
+    }
+
+    #navigation a:hover {
+        color: #335c67;
+        text-decoration: underline;
     }
 
     body {
@@ -60,13 +66,10 @@ Maroon - #540B0E
     h4 {
         font-family: "Cinzel", serif;
         color: #540b0e;
+        margin-top: 40px;
     }
 
-    h5 {
-        font-family: "Fauna One", serif;
-        color: #335c67;
-    }
-
+    h5,
     p {
         font-family: "Fauna One", serif;
         color: #335c67;
