@@ -6,11 +6,14 @@
     img {
         width: 100%;
         display: flex;
+                margin: auto;
+
     }
 
     h1 {
         font-family: "Ovo", serif;
-        width: 40%;
+        font-size:50px;
+        text-align:center;
     }
 
     h2 {
@@ -28,7 +31,7 @@
         font-size: 20px;
         width: 100%;
         margin: auto;
-        padding: 10px;
+        padding: 25px 0px 10px 0px;
     }
 
     #topper {
@@ -41,7 +44,7 @@
     p {
         width: 100%;
         margin: auto;
-        padding: 15px;
+        padding-top: 15px;
         font-size: 17px;
     }
 
@@ -50,21 +53,25 @@
         padding: 0;
         margin: auto;
     }
+    
+    .headlinebox {
+        margin:40% 10% 0px 10%;
+        background-color:rgba(0, 0, 0, 0.5);
+        color:white;
+    }
 }
 
 @media (min-width: 576px) {
     p {
         width: 60%;
         margin: auto;
-        padding: 15px;
+        padding-top: 15px;
     }
     
         h4 {
-        font-family: "Inter", sans-serif;
-        font-size: 20px;
         width: 60%;
         margin: auto;
-        padding: 10px;
+        padding: 25px 0px 10px 0px;
     }
     
      img {
