@@ -6,14 +6,13 @@
     img {
         width: 100%;
         display: flex;
-                margin: auto;
-
+        margin: auto;
     }
 
     h1 {
         font-family: "Ovo", serif;
-        font-size:50px;
-        text-align:center;
+        font-size: 50px;
+        text-align: center;
     }
 
     h2 {
@@ -25,13 +24,15 @@
         font-family: "Inter", sans-serif;
         font-size: 15px;
     }
-    
+
     h4 {
-        font-family: "Inter", sans-serif;
-        font-size: 20px;
+        font-family: "Ovo", serif;
+        font-weight: 1000;
+        font-size: 30px;
+        color: #005a00;
         width: 100%;
         margin: auto;
-        padding: 25px 0px 10px 0px;
+        padding: 10px 0px 10px 0px;
     }
 
     #topper {
@@ -41,10 +42,11 @@
         height: 100vh;
     }
 
-    p {
+    p,
+    .pull-quote {
         width: 100%;
         margin: auto;
-        padding-top: 15px;
+        padding: 15px;
         font-size: 17px;
     }
 
@@ -53,28 +55,84 @@
         padding: 0;
         margin: auto;
     }
-    
+
     .headlinebox {
-        margin:40% 10% 0px 10%;
-        background-color:rgba(0, 0, 0, 0.5);
-        color:white;
+        margin: 40% 10% 0px 10%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        text-align: center;
+    }
+
+    #qualified {
+        width: 60%;
+        margin: auto;
+        padding: 15px 0% 15px 0%;
+    }
+
+    #hosts {
+        width: 60%;
+        margin: auto;
+        padding: 15px 0% 15px 0%;
+    }
+
+    #prices {
+        width: 60%;
+        margin: auto;
+        padding: 15px 0% 15px 0%;
+    }
+
+    #qatar {
+        width: 60%;
+        margin: auto;
+        padding: 15px 0% 15px 0%;
+    }
+
+    .disclaimer {
+        font-style: italic;
+    }
+
+    .pull-quote {
+        background-color: #005a00;
+        color: white;
+        border: 3px solid black;
+    }
+
+    .quote {
+        width: 100%;
+        margin: auto;
+        font-family: "Ovo", serif;
+        font-size: 20px;
+    }
+
+    .quotemark {
+        font-size: 200px;
+        float: left;
+        line-height: 0em;
+        padding-top: 80px;
+        font-family: "Ovo", serif;
+        padding-bottom: 50px;
+    }
+
+    .attribution {
+        margin-left: auto;
     }
 }
 
 @media (min-width: 576px) {
-    p {
+    p,
+    .pull-quote {
         width: 60%;
         margin: auto;
-        padding-top: 15px;
+        padding: 15px;
     }
-    
-        h4 {
+
+    h4 {
         width: 60%;
         margin: auto;
         padding: 25px 0px 10px 0px;
     }
-    
-     img {
+
+    img {
         width: 60%;
         margin: auto;
     }
